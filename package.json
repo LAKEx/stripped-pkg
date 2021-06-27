@@ -1,0 +1,50 @@
+{
+  "name": "stripped-pkg",
+  "version": "0.0.0",
+  "description": "",
+  "main": "dist",
+  "scripts": {
+    "test": "jest --watchAll --coverage",
+    "build": "tsc"
+  },
+  "peerDependencies": {
+    "react": ">=14"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LAKEx/stripped-pkg.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/LAKEx/stripped-pkg/issues"
+  },
+  "homepage": "https://github.com/LAKEx/stripped-pkg#readme",
+  "devDependencies": {
+    "@babel/preset-env": "^7.14.7",
+    "@types/enzyme": "^3.10.8",
+    "@types/jest": "^26.0.23",
+    "@types/react": "^16.0.0",
+    "@types/react-dom": "^16.0.0",
+    "babel-jest": "^27.0.5",
+    "enzyme": "^3.11.0",
+    "enzyme-adapter-react-16": "^1.15.6",
+    "jest": "^27.0.5",
+    "jsdom": "^16.6.0",
+    "jsdom-global": "^3.0.2",
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0",
+    "ts-jest": "^27.0.3",
+    "typescript": "^4.3.4"
+  },
+  "files": [
+    "dist"
+  ],
+  "prettier": {
+    "printWidth": 80,
+    "semi": true,
+    "singleQuote": true,
+    "trailingComma": "es5"
+  }
+}
